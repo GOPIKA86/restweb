@@ -1,3 +1,160 @@
+Ex.07 Restaurant Website
+Date:
+AIM:
+To develop a static Restaurant website to display the food items and services provided by them.
+
+DESIGN STEPS:
+Step 1:
+Requirement collection.
+
+Step 2:
+Creating the layout using HTML and CSS.
+
+Step 3:
+Updating the sample content.
+
+Step 4:
+Choose the appropriate style and color scheme.
+
+Step 5:
+Validate the layout in various browsers.
+
+Step 6:
+Validate the HTML code.
+
+Step 7:
+Publish the website in the given URL.
+
+PROGRAM:
+```
+rest.html
+
+<!DOCTYPE html>
+<html lang="en"?>
+    <head>
+        <title>TASTY DINE</title>
+        <link rel="icon" href="logo.jpg">
+    </head>
+    <style>
+        body{
+            background-image: url(back1.webp);
+            background-size: cover;
+            background-position: center;
+        }
+        .nav-list{
+            position: absolute;
+            top: 30px;
+            left: 80%;
+            transform:  translatex(10%);
+        }
+        .nav-list a{
+            display: inline blocks;
+            margin: 0 10px;
+            font-family:MS Sans Serif;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+        }
+        .nav-list a:hover{
+            color: rgb(235, 9, 149);
+        }
+    </style>
+        <div class="nav-list">
+        
+        <a href="rest.html">Home</a>
+        <a href="contact.html">contact</a>
+        <a href="order.html">menu</a>
+        <a href="admin.html">Administration</a>
+
+        </div>
+    <body style="color: white;">
+        <center>
+        <img src="logo.jpg" style="height: 150px;">
+        </center>
+        <center>
+            <h1 style="color: green; font-size: 50px;">TASTE DINE</h1>
+    <table> 
+        <center>
+        <tr>
+            <td><img src="burger.jpg" style="width: 300px; height: 250px;"></td>
+            <td><img src="Dosai.jpg" style="width:300px; height: 250px;"></td>
+            <td><img src="puri.jpg" style="width:300px; height: 250px;"></td>
+            <td><img src="parotta.jpg" style="width:300px; height: 250px;"></td>
+            <td><img src="panipuri.webp" style="width:300px; height: 250px;"></td>
+        </tr>
+        </center>
+        <tr>
+            <td><h3 style="color:rgb(235, 9, 149);"><center>BURGER</center></h3></td>
+            <td><h3 style="color:rgb(235, 9, 149);"><center>DOSAI </center></h3></td>
+            <td><h3 style="color: rgb(235, 9, 149);"><center>PURI</center></h3></td>
+            <td><h3 style="color: rgb(235, 9, 149)"><center>PAROTTA</center></h3></td>
+            <td><h3 style="color:rgb(235, 9, 149)"><center>PANIPURI</center></h3></td>
+        </tr>
+    </table>
+    <h2>OUR specialities:   
+    </h2>
+        <p style="font-family: 'Times New Roman',Times, serif";><center>
+            Speciality restaurants offer a fine dining experience wherein guests can enjoy their meals cooked to perfection by master chef's in a live kitchen. The authentic décor and warm and personalized service is an experience to cherish.
+        People don't just go to restaurants for the food; they go for the experience. Talk about the overall experience your restaurant offers, from the service to the atmosphere. For example: "Our friendly staff and warm, inviting atmosphere make every meal feel like a special occasion."        
+        </p> 
+        <hr>
+        <tr>
+            <td><h4 style="font-size: larger;"><center>THE BEST PLACE TO EXPERIENCE THE REAL TASTE!</center></h4></td>
+        </tr>
+    </body>        
+</html>
+
+contact.html
+
+<html>
+    <head>
+        <title> CONTACT </title>
+    </head>
+    <style>
+        
+        body{
+        
+            background-image: url(back1.webp);
+            background-size: cover;
+            background-position: center;
+        }
+        body{
+            display: inline blocks;
+            padding-left: 500px;
+            font-family:MS Sans Serif;
+            text-decoration: none;
+            font-size: 23px;
+            font-weight: bolder;
+            color: rgb(217, 231, 239);
+            position:absolute;
+            top: 200px;
+        }
+    </style>
+
+        
+        <a href="rest.html">HOME</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="order.html">MENU</a>
+        <a href="admin.html">ADMINISTRATION</a>
+
+
+    <center>
+        <section id="contact">  
+            <h1 style="color:#0ffbff">contact<h1>
+            <h4  style="color:#00f2ff">+91 6987230465<br> | tastydine@gmail.com</h4>
+            <P  style="color:#0479ff">Address: no.39 T Nagnar, chennai. <br>
+                <br> contact us to place the order<br>
+            <hr> THE PLACE WHERE YOU FIND THE REAL TASTE
+            </P>
+         </section> 
+    </center>
+    </body>
+</html>
+
+
+admin.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -206,3 +363,19 @@
 
 </body>
 </html>
+
+
+
+
+
+```
+OUTPUT:
+![alt text](<Screenshot (33).png>)
+![alt text](<Screenshot (34).png>)
+![alt text](<Screenshot (35).png>)
+![alt text](<Screenshot (36).png>)
+
+
+
+RESULT:
+The program for designing software company website using HTML and CSS is completed successfully.
