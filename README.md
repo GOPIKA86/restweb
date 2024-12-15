@@ -1,5 +1,9 @@
 # Ex.07 Restaurant Website
+<<<<<<< HEAD
 ## Date:15.12.2024
+=======
+## Date:15-12-2024
+>>>>>>> ce707489f4d15082511a1b5a8dd8ac6d868f49bc
 
 ## AIM:
 To develop a static Restaurant website to display the food items and services provided by them.
@@ -29,7 +33,10 @@ Publish the website in the given URL.
 
 ## PROGRAM:
 ```
+<<<<<<< HEAD
 rest.html
+=======
+>>>>>>> ce707489f4d15082511a1b5a8dd8ac6d868f49bc
 
 <!DOCTYPE html>
 <html lang="en"?>
@@ -412,12 +419,20 @@ contact.html
 
 ```
 
+```
+
 ## OUTPUT:
 
 ![alt text](<gopika/Screenshot (33).png>)
 ![alt text](<gopika/Screenshot (34).png>)
 ![alt text](<gopika/Screenshot (35).png>)
 ![alt text](<gopika/Screenshot (36).png>)
+
+
+
+
+
+
 
 
 ## RESULT:
