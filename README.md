@@ -423,17 +423,13 @@ contact.html
 
 ## OUTPUT:
 
-![alt text](<gopika/Screenshot (33).png>)
-![alt text](<gopika/Screenshot (34).png>)
-![alt text](<gopika/Screenshot (35).png>)
-![alt text](<gopika/Screenshot (36).png>)
+```
+![alt text](<gopika/gopika/Screenshot (33).png>)
+![alt text](<gopika/gopika/Screenshot (34).png>)
+![alt text](<gopika/gopika/Screenshot (35).png>)
+![alt text](<gopika/gopika/Screenshot (36).png>)
 
-
-
-
-
-
-
+```
 
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
